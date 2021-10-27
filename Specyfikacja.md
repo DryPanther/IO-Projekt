@@ -6,6 +6,7 @@
     * Definicje
 2. Opis ogólny
     * Diagramy przypadków użycia
+    * Scenariusz przypadków użycia
     * Założenia i zależności
 3. Wymagania systemowe
     * Wymagania funkcjonalne
@@ -32,6 +33,28 @@ filmów i książek o nowe pozycje.
 ### Diagramy przypadków użycia
 ![diagram](diagram.png)
 ![diagram2](Diagram2.jpg)
+### Scenariusz przypadków użycia
+#### Główny scenariusz:
+1. Użytkownik chce wypożyczyć film bądź książkę. 
+2. Użytkownik rejestruje się na stronie wypożyczalni. 
+3. Użytkownik wybiera interesujący go film bądź książkę. 
+4. Użytkownik wykupuje możliwość wypożyczenia danego filmu bądź książki poprzez przelew. 
+5. Użytkownik otrzymuje wiadomość e-mail, z kodem odblokowującym możliwość wypożyczenia danego filmu bądź książki na czas określony. 
+6. Użytkownik po wpisaniu kodu na stronie wypożyczalni, odblokowuje możliwość wypożyczenia danego filmu bądź książki na czas określony. 
+7. Użytkownik wypożycza dany film bądź książkę na czas określony. 
+#### Rozszerzenia:
+2. Użytkownik nie może zarejestrować się na stronę.
+* Strona sprawdza, czy dane podane przez użytkownika nie znajdują się już w bazie danych strony. Jeśli dane znajdują się już w bazie danych strony, strona wyświetla komunikat informujący użytkownika o zaistniałej sytuacji.
+4. Karta lub przelew został odrzucony.
+* Strona sprawdza, czy dane karty podane przez użytkownika, są poprawne. Jeżeli nie, użytkownik strona wyświetla komunikat informujący użytkownika o błędzie.
+* Strona wyświetla komunikat z prośbą o sprawdzenie przez użytkownika, aby ten sprawdzić, czy środki na koncie są wystarczające do wypożyczenia filmu bądź książki.
+* Strona wyświetla komunikat z prośbą o sprawdzenie przez użytkownika czy limit kwoty przelewu jest wyższy niż zakup przeprowadzany przez użytkownika.
+* Strona wyświetla komunikat z prośbą o sprawdzenie przez użytkownika czy dzienny limit przelewów pozwala na zakup filmu bądź książki.
+5. E-mail nie dociera na skrzynkę pocztową użytkownika.
+* Strona wyświetla komunikat z zapytaniem, czy e-mail dotarł na podany przez użytkownika adres e-mail. Po potwierdzeniu, że użytkownik nie otrzymał kodu na podany adres e-mail, strona wyświetli zapytanie czy kod ma zostać wysłany ponownie na podany przez użytkownika e-mail.
+* Strona wyświetla komunikat z zapytaniem, czy e-mail dotarł na podany przez użytkownika adres e-mail. Po potwierdzeniu, że użytkownik nie otrzymał kodu na podany adres e-mail, strona wyświetli zapytanie czy kod ma zostać wysłany ponownie na podany przez użytkownika e-mail. Jeżeli użytkownik wybierze opcje zmiany e-mail 'u, strona wyświetli komunikat z prośbą o wpisanie nowego e-mail 'u. 
+6. Kod nie działa.
+* Strona wyświetla komunikat z prośbą o ponowne wpisanie kodu. 
 ### Założenia i zależności
 * C#-wieloparadygmatowy język programowania zaprojektowany w latach 1998–2001 przez zespół pod kierunkiem Andersa Hejlsbergadla firmy Microsoft.
 * .NET -wolne i otwarte oprogramowanie pozwalające tworzyć i uruchamiać wysoce wydajne aplikacje na platformach Windows, Linux, macOS. Programy w środowisku 
