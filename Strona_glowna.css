@@ -7,8 +7,8 @@ body {
     padding: 0;
     background: #F2E3D6;
 }
-#container{
 
+#container {
 }
 
 #block1 {
@@ -19,35 +19,65 @@ body {
     top: 648px;
     background: #F2E9E1;
 }
+
 #nawigacja {
-    position:fixed;
+    position: fixed;
     width: 100%;
- 
-    background:#59320A;
-
-}
-#nawigacja ul {
-    list-style:none;
-    background:rgba(0,0,0,0);
-    overflow:hidden;
-    color:white;
-    padding:0;
-    text-align:right;
-    margin:0;
-    transition:1s;
+    background: #59320A;
 }
 
-#nawigacja ul li{
-    display:inline-block;
-    padding:18px; 
+    #nawigacja ul {
+        list-style: none;
+        background: rgba(0,0,0,0);
+        overflow: hidden;
+        color: white;
+        padding: 0;
+        text-align: right;
+        margin: 0;
+        transition: 1s;
+    }
 
-}
-#nawigacja ul li a
-{
-    text-decoration:none;
-    color:white;
-    font-size:20px;
-    text-transform:uppercase;
-    letter-spacing:1px;
+        #nawigacja ul li {
+            display: inline-block;
+            padding: 18px;
+        }
+
+            #nawigacja ul li a {
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+            }
+
+#obrazek1 {
+    position: absolute;
+    width: 419px;
+    height: 419px;
+    left: 110px;
+    top: 115px;
 }
 
+#tekstReklamyNagłówek {
+    position: absolute;
+    width: 527px;
+    height: 154px;
+    left: 774px;
+    top: 170px;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#tekstReklamy {
+    position: absolute;
+    width: 553px;
+    height: 106px;
+    left: 774px;
+    top: 338px;
+    font-size: 25px;
+    line-height: 31px;
+    display: flex;
+    align-items: center;
+}
