@@ -11,14 +11,7 @@ body {
 #container {
 }
 
-#block1 {
-    position: absolute;
-    width: 100%;
-    height: 648px;
-    left: 0px;
-    top: 648px;
-    background: #F2E9E1;
-}
+
 
 #nawigacja {
     position: fixed;
@@ -50,7 +43,9 @@ body {
                 text-transform: uppercase;
                 letter-spacing: 1px;
             }
-
+#block0{
+    left:50%;
+}
 #obrazek1 {
     position: absolute;
     width: 419px;
@@ -84,7 +79,12 @@ body {
 }
 
 #block1 {
-    margin: auto;
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    left: 0px;
+    top: 648px;
+    background: #F2E9E1;
     display: flex;
 }
 
@@ -167,17 +167,6 @@ body {
     }
 }
 
-/* @keyframes bounce {
-  50% {
-    opacity: 1;
-    transform: scale(1.1);
-  }
-
-  100% {
-    opacity: 1;
-    transform: scale(1);
-  }
-} */
 
 .ticket__content {
     width: 100%;
@@ -218,3 +207,54 @@ body {
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+
+#block2 {
+    position: absolute;
+    width: 100%;
+    height: 648px;
+    left:50%;
+}
+#obrazekFilm {
+    position: absolute;
+    width: 483.59px;
+    height: 419px;
+    left: 13px;
+    top: 1394px;
+}
+#obrazekKsiazka {
+    position: absolute;
+    width: 419px;
+    height: 403.84px;
+    left: 1000px;
+    top: 1401px;
+}
+
+#tekstNaszaOferta {
+    position: absolute;
+    width: 242px;
+    height: 52px;
+    left: 599px;
+    top: 1348px;
+    font-family: Trykker;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#tekstOferta {
+    position: absolute;
+    width: 445px;
+    height: 322px;
+    left: 497px;
+    top: 1459px;
+    font-family: Trykker;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 31px;
+    display: flex;
+}
+
