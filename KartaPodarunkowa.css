@@ -7,7 +7,8 @@ body {
 }
 
 #container {
-}
+
+ }
 
 
 
@@ -51,11 +52,11 @@ form {
 
 form {
     position: absolute;
-    top: 50%;
+    top:500px;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 20%;
-    height: 20%;
+    /*width: 50%;*/
+    /*height: 100%;*/
 }
 
 input {
@@ -81,14 +82,7 @@ input {
             opacity: 0.9;
         }
 
-/*#rejestracja {
-    position: absolute;
-    margin-top: 28%;
-    left: 50%;
-    text-align: center;
-    transform: translateX(-50%);
-}
-*/
+
 a {
     opacity: 0.8;
     margin: 0 4vw;
@@ -104,4 +98,34 @@ a {
     100% {
         opacity: 1
     }
+}
+h2 {
+   
+    position:absolute;
+   /* width:100%;*/
+    /*left:50%;*/
+    padding-left:25%;
+    padding-right:25%;
+    padding-top:5%;
+}
+KartaPodarunkowa {
+    
+}
+Reklama:hover, input:focus, a:hover {
+    opacity: 0.9;
+    /* position: absolute;*/
+    /*  top: 100px;
+    left: 400px;
+    width: 100%;*/
+    /*Thanks a lot! <a href='https://www.freepik.com/vectors/music'>Music vector created by vectorjuice - www.freepik.com</a>
+        https://www.freepik.com/free-vector/video-design-abstract-concept-illustration_11668627.htm#page=1&query=movie&position=29&from_view=search
+    */
+}
+img1 {
+    position: absolute;
+    
+    width: 419px;
+    height: 419px;
+    left: 110px;
+    top: 115px;
 }
