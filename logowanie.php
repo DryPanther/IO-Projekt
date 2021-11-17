@@ -4,7 +4,7 @@
 
     if ((isset($_SESSION['zalogowany'])) && ($_SESSION['zalogowany']==true))
     {
-        header('Location: SG_po_zalogowaniu.html');
+        header('Location: zalogowany.php');
         exit();
     }
 
@@ -33,14 +33,7 @@
             </ul>
         </div>
         <div id="formularzLogowania">
-            <!--<div id="logowanie">
-
-            <form action="logowanie.html" method="post">
-                <input type="text" name="logowanie" size="32" maxlength="32">
-            </form>
-
-
-            </div>-->
+          
 
             <form action="zaloguj.php" method="post">
                 <input placeholder="Login" size="32" maxlength="32">
@@ -53,7 +46,6 @@
             </div>
         </div>
     </div>
-
     <?php
     if(isset($_SESSION['blad']))    echo $_SESSION['blad'];
 ?>

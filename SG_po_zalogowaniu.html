@@ -1,4 +1,13 @@
-﻿<!DOCTYPE html>
+﻿<?php
+
+	session_start();
+
+	if (!isset($_SESSION['zalogowany']))
+	{
+		header('Location: logowanie.html');
+		exit();
+	}
+<!DOCTYPE html>
 <!--<a href="https://www.freepik.com/vectors/book">Book vector created by vectorjuice - www.freepik.com</a>-->
 
 
