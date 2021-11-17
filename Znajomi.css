@@ -5,13 +5,6 @@ body {
     background: #F2E3D6;
     left: 0px;
 }
-
-#container {
-
- }
-
-
-
 #nawigacja {
     left: 0px;
     top: 0px;
@@ -20,7 +13,6 @@ body {
     width: 100%;
     background: #59320A;
 }
-
     #nawigacja ul {
         list-style: none;
         background: rgba(0,0,0,0);
@@ -31,7 +23,6 @@ body {
         margin: 0;
         transition: 1s;
     }
-
         #nawigacja ul li {
             display: inline-block;
             padding: 18px;
@@ -45,20 +36,24 @@ body {
                 letter-spacing: 1px;
             }
 
+a {
+    opacity: 0.8;
+    margin: 0 4vw;
+    font-size: 1vw;
+    color: blue;
+}
 
 form {
     animation: showingUp 2s;
 }
-
 form {
     position: absolute;
-    top:500px;
+    top: 500px;
     left: 50%;
     transform: translate(-50%, -50%);
     /*width: 50%;*/
     /*height: 100%;*/
 }
-
 input {
     opacity: 0.8;
     display: block;
@@ -72,7 +67,6 @@ input {
     font-size: 1.5vw;
     text-align: center;
 }
-
     input[type=submit] {
         box-sizing: content-box;
         cursor: pointer;
@@ -81,15 +75,15 @@ input {
         input[type=submit]:hover, input:focus, a:hover {
             opacity: 0.9;
         }
-
-
-a {
-    opacity: 0.8;
-    margin: 0 4vw;
-    font-size: 1vw;
-    color: blue;
+h2 {
+    animation: showingUp 2s;
+    position: absolute;
+    /* width:100%;*/
+    /*left:50%;*/
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 10%;
 }
-
 @keyframes showingUp {
     0% {
         opacity: 0
@@ -99,33 +93,16 @@ a {
         opacity: 1
     }
 }
-h2 {
-    animation: showingUp 2s;
-    position: absolute;
-    /* width:100%;*/
-    /*left:50%;*/
-    padding-left: 25%;
-    padding-right: 25%;
-    padding-top: 5%;
-}
-KartaPodarunkowa {
-    
-}
-Reklama:hover, input:focus, a:hover {
-    opacity: 0.9;
-    /* position: absolute;*/
-    /*  top: 100px;
-    left: 400px;
-    width: 100%;*/
-    /*Thanks a lot! <a href='https://www.freepik.com/vectors/music'>Music vector created by vectorjuice - www.freepik.com</a>
-        https://www.freepik.com/free-vector/video-design-abstract-concept-illustration_11668627.htm#page=1&query=movie&position=29&from_view=search
-    */
-}
 img1 {
     position: absolute;
-    
     width: 419px;
     height: 419px;
     left: 110px;
     top: 115px;
+}
+dodaj:hover, input:focus, a:hover {
+    opacity: 0.9;
+}
+/*Thanks a lot! <a href='https://www.freepik.com/vectors/building' > Building vector created by vectorjuice - www.freepik.com</a >*/
+#container {
 }
