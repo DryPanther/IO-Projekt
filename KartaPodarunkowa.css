@@ -100,13 +100,13 @@ a {
     }
 }
 h2 {
-   
-    position:absolute;
-   /* width:100%;*/
+    animation: showingUp 2s;
+    position: absolute;
+    /* width:100%;*/
     /*left:50%;*/
-    padding-left:25%;
-    padding-right:25%;
-    padding-top:5%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 5%;
 }
 KartaPodarunkowa {
     
