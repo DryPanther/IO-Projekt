@@ -43,6 +43,20 @@ body {
                 text-transform: uppercase;
                 letter-spacing: 1px;
             }
+            #nawigacja input[type=text] {
+                text-align: center;
+                background-color: #F2E3D6;
+                font-size: 20px;
+                color: black;
+                border-top-left-radius: 1.5vw;
+                border-bottom-left-radius: 1.5vw;
+              }
+              #nawigacja input[type=submit]{
+                border-top-right-radius: 1.5vw;
+                border-bottom-right-radius: 1.5vw;
+                font-size: 20px;
+                background-color: #F2E3D6;
+              }
 #block0 {
     left: 50%;
     position: absolute;
