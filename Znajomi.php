@@ -19,27 +19,12 @@
                 <li><a href="#Kategorie">Kategorie</a></li>
                 <li><a href="logowanie.html">Zaloguj</a></li>
             </ul>
+            <?php
+       $kod = $_POST['kod'];
+       echo "<h2>Wys³ano zaproszenie do u¿ytkownika o kodzie: $kod</h2>";
+       ?>
         </div>
-        <div>
-            <h2>Chcesz dodaæ znajomego? ¯aden problem, po prostu wpisz jego kod identyfikacyjny!</h2>
-            <div id="img1"><img src="img/Z1.jpg" width="419" height="419" /></div>
-            <div id="dodaj">
-                
-                <table>
-                    <td>
-
-                    </td>
-                </table>
-
-                <form action="Znajomi.php" method="post">
-
-
-                    <input placeholder="Podaj kod znajomego" size="32" maxlength="32" name="kod">
-
-                    <input type="submit" value="Dodaj znajomego">
-                </form>
-            </div>
-        </div>
+      
     </div>
 </body>
 </html>
