@@ -71,10 +71,19 @@
 </div>
   </div>
  
+<div id="poznajNas">
+        <div><img src="https://image.flaticon.com/icons/png/512/49/49243.png" class="img-fluid" width="255" height="247" ></div>
+        <div id="dzieki">
+        Dzięki naszemu systemowi dodawania znajomych możecie ze sobą rywalizować w ilości przczytanych książek lub obejrzanych filmów.
+        </div>
+        <div><img src="https://image.flaticon.com/icons/png/512/49/49243.png" class="img-fluid" width="255" height="247" ></div>
 </div>
-    
+<div id="footer">
+.
+</div>
 
- 
+</div>
+
   </div>  
   </div>
 </template>
@@ -125,6 +134,22 @@ img{
   padding:30px;
   justify-content:space-evenly;
 }
+#poznajNas{
+  margin-top:5%;
+  align-items:center;
+  display:flex;
+  margin-left:23%;
+}
+#dzieki{
+width:300px;
+font-size:20px;
+}
+#footer{
+  background:#59320A;
+  margin-top:10%;
+}
+
+
 
 
 </style>
