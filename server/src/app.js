@@ -1,7 +1,7 @@
 const express = require('express')
 const morgan = require('morgan')
 const createError = require('http-errors')
-require('dotenv').config()
+require('dotenv').config({path: './app.env'})
 require('./helpers/init_mongodb')
 
 const AuthRoute = require('./Routes/Auth.route')
