@@ -92,4 +92,10 @@ export default {
     width:100%;
 }
 #strona{background:#F2E3D6;height:100%;position:absolute;width:100%;}
+h1{
+  margin-top:7%;
+}
+#email{
+margin-top:3%;
+}
 </style>
