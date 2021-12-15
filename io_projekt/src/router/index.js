@@ -7,6 +7,8 @@ import Login from '@/components/Login'
 import Karta from '@/components/Karta'
 import Kategorie from '@/components/Kategorie'
 import Znajomi from '@/components/Znajomi'
+import Forgot from '@/components/Forgot'
+
 
 Vue.use(Router)
 
@@ -46,6 +48,11 @@ export default new Router({
       path: '/Znajomi',
       name: 'Znajomi',
       component: Znajomi
+    },
+    {
+      path: '/forgot',
+      name: 'forgot',
+      component: Forgot
     }
   ]
 })
