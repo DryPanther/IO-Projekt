@@ -5,6 +5,13 @@ POST http://localhost:3000/auth/login
 
 ###Register Route
 POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+    "email":"hlywplyw69@gmail.com",
+    "password":"2137"
+}
+
 
 ###Refresh token Route
 POST http://localhost:3000/auth/refresh-token
