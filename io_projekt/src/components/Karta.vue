@@ -1,39 +1,6 @@
 <template>
 <div >
-  <div id="nawigacja">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/#/home">IO_Projekt</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/#/home">Strona Główna</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/#/login">Zaloguj</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/#/register">Zarejestruj</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/#/Karta">Karta podarunkowa</a>
-              </li>
-               <li class="nav-item">
-                <a class="nav-link" href="/#/Znajomi">Znajomi</a>
-              </li>
-            </ul>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Szukaj" aria-label="Szukaj">
-                <button class="btn btn-light" type="submit">Szukaj</button>
-              </form>
-          </div>
-      </div>
-    </nav>
-  </div>
+<navigation />
   <div id="strona">
           <div id="main">
             <h1>Idealne na prezent</h1>
@@ -60,8 +27,16 @@
 </template>
 
 <script>
-
+ 
+import nawigacja from '@/components/navigation.vue'
 export default {
+ 
+
+  components: {
+    navigation: nawigacja
+    
+  },
+
   data () {
     
     return {
@@ -81,13 +56,7 @@ export default {
 
 <style scoped>
 
-#nawigacja{
-    z-index: 9999;
-    margin-top:-60px;
-    background:#59320A;
-    position:fixed;
-    width:100%;
-}
+
 #strona{background:#F2E3D6;height:100%;position:absolute;width:100%;margin-top:-6px;}
 
 #main{
