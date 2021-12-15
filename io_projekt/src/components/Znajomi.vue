@@ -34,28 +34,21 @@
       </div>
     </nav>
   </div>
-  <div id="strona">
-          <div id="main">
-            <h1>Idealne na prezent</h1>
+  <div id="mainpage">
+      <div id="main">
+            <h1>Zdrowa konkrecja, zawdze podkręca atmosfere!</h1>
               <br><br>
-            <p>Bliska Ci osoba jest molem książkowym? Zbliżają się jej urodziny
-            i nie wiesz co kupić jej na prezent?</p>
+            <h4>Sprawdź się ze swoim znajomym, kto wiecęj przeczytał książek!</h4>
               <br>
-            <h3>Kup jej bon na książke i problem z głowy!</h3>
               <br>
-            <button @click="error" class="btn btn-dark">KUP</button>
+            <h3>Zaloguj się poniżej, a następnie dodaj znajomych!</h3>
+              <br>
+              <br>
+            <button @click="error" class="btn btn-dark">Zaloguj</button>
               <br><br>
-            <h5>Lub zrealizuj kod</h5>
-              <form action="">
-              <br>
-                <input type="text" name="text" placeholder="KOD" value="">
-                  <br><br>
-                <input type="reset" class="btn btn-dark">
-                <input type="submit" class="btn btn-dark" value="Zrealizuj" > 
-              </form>
-              <br>
+          
     </div> 
-</div>
+  </div>
 </div>
 </template>
 
@@ -88,7 +81,7 @@ export default {
     position:fixed;
     width:100%;
 }
-#strona{background:#F2E3D6;height:100%;position:absolute;width:100%;margin-top:-6px;}
+#mainpage{background:#F2E3D6;height:100%;position:absolute;width:100%;margin-top:-6px;}
 
 #main{
    margin-top: 5%;

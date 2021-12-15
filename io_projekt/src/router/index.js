@@ -6,6 +6,7 @@ import Home from '@/components/Home'
 import Login from '@/components/Login'
 import Karta from '@/components/Karta'
 import Kategorie from '@/components/Kategorie'
+import Znajomi from '@/components/Znajomi'
 
 Vue.use(Router)
 
@@ -40,6 +41,11 @@ export default new Router({
       path: '/kategorie',
       name: 'kategorie',
       component: Kategorie
+    },
+    {
+      path: '/Znajomi',
+      name: 'Znajomi',
+      component: Znajomi
     }
   ]
 })
