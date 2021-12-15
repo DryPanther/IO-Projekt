@@ -13,6 +13,9 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/#/home">Strona Główna</a>
               </li>
+               <li class="nav-item">
+          <a class="nav-link" href="/#/kategorie">Kategorie</a>
+        </li>
               <li class="nav-item">
                 <a class="nav-link" href="/#/login">Zaloguj</a>
               </li>
@@ -21,6 +24,9 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/#/Karta">Karta podarunkowa</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" href="/#/Friends">Znajomi</a>
               </li>
             </ul>
               <form class="d-flex">
