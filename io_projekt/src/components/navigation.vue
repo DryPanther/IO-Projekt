@@ -18,6 +18,9 @@
         <li class="nav-item">
           <a class="nav-link" href="/#/register">Zarejestruj</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/#/kategorie">Kategorie</a>
+        </li>
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Szukaj" aria-label="Szukaj">
