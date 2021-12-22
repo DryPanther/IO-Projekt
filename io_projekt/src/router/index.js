@@ -8,6 +8,7 @@ import Karta from '@/components/Karta'
 import Kategorie from '@/components/Kategorie'
 import Znajomi from '@/components/Znajomi'
 import Forgot from '@/components/Forgot'
+import User from '@/components/User'
 
 
 Vue.use(Router)
@@ -53,6 +54,11 @@ export default new Router({
       path: '/forgot',
       name: 'forgot',
       component: Forgot
+    },
+    {
+      path: '/user',
+      name: 'user',
+      component: User
     }
   ]
 })
