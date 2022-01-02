@@ -22,6 +22,17 @@ Content-Type: application/json
 
 ###Refresh token Route
 POST http://localhost:3000/auth/refresh-token
+Content-Type: application/json
+
+{
+    "refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDExMzAxMDUsImV4cCI6MTY3MjY4NzcwNSwiYXVkIjoiNjFiYTUxOGE2YTlhZTQzYmEyMWZjN2FiIiwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.E5EAvxA5IOWtd4n6PnIvCV0N4QIruePHjSwmgkbVM0c"
+
+}
 
 ###Logout Route
 DELETE  http://localhost:3000/auth/logout
+Content-Type: application/json
+
+{
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDExMzk4MjUsImV4cCI6MTY3MjY5NzQyNSwiYXVkIjoiNjFiYTUxOGE2YTlhZTQzYmEyMWZjN2FiIiwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.1sNn7BpTkwhX68GjlwnwUxT1_bKEilJZ5kz_-DFgxbI"
+}
