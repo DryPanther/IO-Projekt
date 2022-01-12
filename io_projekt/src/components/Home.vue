@@ -53,7 +53,9 @@
         <div><img src="https://image.flaticon.com/icons/png/512/49/49243.png" class="img-fluid" width="255" height="247" ></div>
 </div>
 <div id="footer">
-.
+ <a href="https://www.facebook.com/"><img src="https://media.discordapp.net/attachments/353905865667117057/930818562254336020/fa.png"></a>
+ <a href="https://www.twitter.com/"><img src="https://media.discordapp.net/attachments/353905865667117057/930820944602214460/t.png"></a>
+ e-mail: IO_Projekt@poczta.com Kontakt: 123456789
 </div>
 
 </div>
@@ -122,9 +124,10 @@ font-size:20px;
 #footer{
   background:#59320A;
   margin-top:10%;
+  text-align:left;
+  padding:6px;
+  word-spacing:10px;
+  color:white;
 }
-
-
-
 
 </style>

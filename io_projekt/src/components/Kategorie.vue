@@ -19,8 +19,10 @@
         <a href="/#/KsiążkiDlaDzieci"><img src="https://media.discordapp.net/attachments/517731107341336577/919597856007016478/dladzieci.png"></a>
 
   </div>
-  <div id="footer">
-.
+<div id="footer">
+ <a href="https://www.facebook.com/"><img src="https://media.discordapp.net/attachments/353905865667117057/930818562254336020/fa.png"></a>
+ <a href="https://www.twitter.com/"><img src="https://media.discordapp.net/attachments/353905865667117057/930820944602214460/t.png"></a>
+ e-mail: IO_Projekt@poczta.com Kontakt: 123456789
 </div>
 </div>
 </template>
@@ -59,10 +61,17 @@ export default {
 }
 #footer{
   background:#59320A;
-  position:absolute;
-  width:100%;
-  margin-top:4%;
+  margin-top:3.5%;
+  text-align:left;
+  padding:6px;
+  word-spacing:10px;
+  color:white;
 }
-#strona{background:#F2E3D6;height:100%;position:fixed;width:100%;}
+#strona{
+background:#F2E3D6;
+height:100%;
+position:fixed;
+width:100%;
+}
 </style>
 
