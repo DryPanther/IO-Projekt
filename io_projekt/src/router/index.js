@@ -9,6 +9,8 @@ import Kategorie from '@/components/Kategorie'
 import Znajomi from '@/components/Znajomi'
 import Forgot from '@/components/Forgot'
 import User from '@/components/User'
+import pay from '@/components/pay'
+
 
 
 Vue.use(Router)
@@ -59,6 +61,11 @@ export default new Router({
       path: '/user',
       name: 'user',
       component: User
+    },
+    {
+      path: '/pay',
+      name: 'pay',
+      component: pay
     }
   ]
 })
