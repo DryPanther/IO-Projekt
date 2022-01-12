@@ -16,6 +16,7 @@ import pay from '@/components/pay'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
