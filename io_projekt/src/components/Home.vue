@@ -4,7 +4,7 @@
 <navigation />
 <div id="kontent">
 
-   <div id="naglowek">TYSIĄCE HISTORII W ZASIĘGU TWOJEJ RĘKI</div> 
+   <div id="naglowek">TYSIĄCE HISTORII W ZASIĘGU TWOJEJ RĘKI</div>
       <div id="tekstReklamy">
         Poznaj nas i naszą nową wypożyczalnię filmów i książek online, dzięki której możesz trzymać
         wszystkie swoje ulubione filmy i książki w jednym miejscu.
@@ -43,8 +43,7 @@
     <a href="#" class="btn btn-primary">Kup</a>
   </div>
 </div>
-  </div>
- 
+</div>
 <div id="poznajNas">
         <div><img src="https://image.flaticon.com/icons/png/512/49/49243.png" class="img-fluid" width="255" height="247" ></div>
         <div id="dzieki">
@@ -57,26 +56,18 @@
  <a href="https://www.twitter.com/"><img src="https://media.discordapp.net/attachments/353905865667117057/930820944602214460/t.png"></a>
  e-mail: IO_Projekt@poczta.com Kontakt: 123456789
 </div>
-
 </div>
-
-  </div>  
- 
+</div>
 </template>
-
 <script>
-
 import nawigacja from '@/components/navigation.vue'
 export default {
   components: {
     navigation: nawigacja
-    
   },
 }
 </script>
-
 <style scoped>
-
 #kontent{
   background:#F2E3D6;
   top:0px;
@@ -90,44 +81,40 @@ export default {
     line-height: 50px;
 }
 #tekstReklamy {
-
-    font-size: 25px;
-    line-height: 31px;
-    display: flex;
-    align-items: center;
-    
+font-size: 25px;
+line-height: 31px;
+display: flex;
+align-items: center;    
 }
 img{
-  border-radius:40px;
+border-radius:40px;
 }
 .card{
-  background:#59320A;
-  color:white;
-  
+background:#59320A;
+color:white;
 }
 #cards{
-  margin-top:5%;
-  display:flex;
-  padding:30px;
-  justify-content:space-evenly;
+margin-top:5%;
+display:flex;
+padding:30px;
+justify-content:space-evenly;
 }
 #poznajNas{
-  margin-top:5%;
-  align-items:center;
-  display:flex;
-  margin-left:23%;
+margin-top:5%;
+align-items:center;
+display:flex;
+margin-left:23%;
 }
 #dzieki{
 width:300px;
 font-size:20px;
 }
 #footer{
-  background:#59320A;
-  margin-top:10%;
-  text-align:left;
-  padding:6px;
-  word-spacing:10px;
-  color:white;
+background:#59320A;
+margin-top:10%;
+text-align:left;
+padding:6px;
+word-spacing:10px;
+color:white;
 }
-
 </style>

@@ -33,19 +33,16 @@ import nawigacja from '@/components/navigation.vue'
 export default {
   components: {
     navigation: nawigacja
-    
   },
 }
 </script>
 
 <style scoped>  
-
 #Filmy {
      margin-top:5%;
   display:flex;
   padding:30px;
   justify-content:space-evenly;
-
 }
 #Książki {
      margin-top:5%;

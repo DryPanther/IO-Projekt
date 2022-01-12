@@ -38,9 +38,7 @@
 
 export default {
   data () {
-    
     return {
-     
     }
   },
  
@@ -56,8 +54,8 @@ export default {
     background:#59320A;
     position:fixed;
     width:100%;
+    height:60px;
 }
 
 
 </style>
-

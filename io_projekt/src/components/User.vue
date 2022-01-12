@@ -31,30 +31,25 @@
 </nav>
 </div>
  <div id="Informacje">
-
-                           <form>
+<form>
   <div id="dane" class="mb-3">
     <input type="email" class="form-control" id="ID" placeholder="ID">
   </div>
 </form>
-                        
-                           <form>
+<form>
   <div id="dane" class="mb-3">
     <input type="email" class="form-control" id="Name" placeholder="Name">
   </div>
 </form>
-                       
-                           <form>
+<form>
   <div id="dane" class="mb-3">
     <input type="email" class="form-control" id="Email" placeholder="Email">
   </div>
 </form>
-                     
-         </div>   
+</div>
 </div>
 </template>
-<script> 
-
+<script>
 </script>
 <style scoped>
 #Informacje{

@@ -5,7 +5,7 @@
 <div id="formularz">
    <h1>Zarejestruj</h1>
 
-   <form>
+   <form @submit.prevent="handleSubmit">
   <div id="email" class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Email</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" v-model="email">
@@ -13,7 +13,7 @@
   </div>
   <div id="haslo" class="mb-3">
     <label for="exampleInputPassword1" clabss="form-label">Hasło</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" v-model="password">
+    <input type="password" class="form-control" id="exampleInputPassword1" v-model="haslo">
   </div>
   <button type="submit" class="btn btn-dark">Zarejestruj</button>
 </form>
@@ -22,36 +22,29 @@
 </template>
 
 <script>
-import AuthenticationService from '@/services/AuthenticationService'
 import nawigacja from '@/components/navigation.vue'
-
+import axios from 'axios'
 export default {
+  name:'register',
   components: {
     navigation: nawigacja
-    
   },
-  data () {
-    return {
-      email: '',
-      password: ''
+  data(){
+    return{
+      email:'',
+      haslo:''
     }
   },
-  methods: {
-    async register() {
-      await AuthenticationService.register({
-        email: this.email,
-        password: this.password
-      })
+methods:{
+async handleSubmit(){
+      const response = await axios.post('register',{
+        email:this.email,
+        haslo:this.haslo
+      });
     }
-
-  },
-  
-
-
+  }
 }
 </script>
-
-
 <style scoped>
 #email{
     margin-left:35%;
