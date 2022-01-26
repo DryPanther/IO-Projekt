@@ -2,9 +2,10 @@
   <div>
 
 <navigation />
+
 <div id="kontent">
-<br>
    <div id="naglowek">TYSIĄCE HISTORII W ZASIĘGU TWOJEJ RĘKI</div>
+   
       <div id="tekstReklamy">
         Poznaj nas i naszą nową wypożyczalnię filmów i książek online, dzięki której możesz trzymać
         wszystkie swoje ulubione filmy i książki w jednym miejscu.
@@ -61,10 +62,23 @@
 </template>
 <script>
 import nawigacja from '@/components/navigation.vue'
+import axios from 'axios'
 export default {
+  name: 'Home',
   components: {
     navigation: nawigacja
   },
+  data(){
+    return{
+      user:null
+    }
+  },
+  async created(){
+    const response = await axios.get('user');
+
+    this.user = response.data;
+    
+  }
 }
 </script>
 <style scoped>
@@ -103,8 +117,7 @@ justify-content:space-evenly;
 margin-top:5%;
 align-items:center;
 display:flex;
-margin-left:30%;
-margin-right: 30%;
+margin-left:23%;
 }
 #dzieki{
 width:300px;
