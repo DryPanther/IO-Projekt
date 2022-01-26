@@ -11,9 +11,9 @@
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" v-model="email">
     <div id="emailHelp" class="form-text">Twój email nie zostanie udostępniony.</div>
   </div>
-  <div id="haslo" class="mb-3">
+  <div id="password" class="mb-3">
     <label for="exampleInputPassword1" clabss="form-label">Hasło</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" v-model="haslo">
+    <input type="password" class="form-control" id="exampleInputPassword1" v-model="password">
   </div>
   <button type="submit" class="btn btn-dark">Zarejestruj</button>
 </form>
@@ -32,14 +32,14 @@ export default {
   data(){
     return{
       email:'',
-      haslo:''
+      password:''
     }
   },
 methods:{
 async handleSubmit(){
-      const response = await axios.post('register',{
+      const response = await axios.post('http://localhost:3000/auth/register', {
         email:this.email,
-        haslo:this.haslo
+        password:this.password
       });
     }
   }
@@ -50,7 +50,7 @@ async handleSubmit(){
     margin-left:35%;
     margin-right:35%;
 }
-#haslo{
+#password{
     margin-left:35%;
     margin-right:35%;
 }
