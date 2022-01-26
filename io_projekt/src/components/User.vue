@@ -10,17 +10,20 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/#/home">Strona Główna</a>
+          <a class="nav-link active" aria-current="page" href="/home">Strona Główna</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#/karta">Karta</a>
+          <a class="nav-link" href="/karta">Karta</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#/znajomi">Znajomi</a>
+          <a class="nav-link" href="/znajomi">Znajomi</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/#/kategorie">Kategorie</a>
+          <a class="nav-link" href="/kategorie">Kategorie</a>
         </li>
+       <li class="nav-item">
+          <a class="nav-link" href="/user">Profil</a>
+       </li>
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Szukaj" aria-label="Szukaj">
@@ -66,6 +69,7 @@ margin-top:5%;
     background:#59320A;
     position:fixed;
     width:100%;
+    
 }
 #strona{background:#F2E3D6;height:100%;position:absolute;width:100%;margin-top:-6px;}
 </style>
