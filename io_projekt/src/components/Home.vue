@@ -3,7 +3,7 @@
 
 <navigation />
 <div id="kontent">
-
+<br>
    <div id="naglowek">TYSIĄCE HISTORII W ZASIĘGU TWOJEJ RĘKI</div>
       <div id="tekstReklamy">
         Poznaj nas i naszą nową wypożyczalnię filmów i książek online, dzięki której możesz trzymać
@@ -16,7 +16,7 @@
   <div class="card-body">
     <h5 class="card-title">Igrzyska Śmierci</h5>
     <p class="card-text">A może ty zostaniesz zwycięzcą?</p>
-    <a href="#" class="btn btn-primary">Kup</a>
+    <a href="/pay" class="btn btn-primary">Kup</a>
   </div>
 </div>
    <div class="card" style="width: 18rem;">
@@ -24,7 +24,7 @@
   <div class="card-body">
     <h5 class="card-title">Hobbit</h5>
     <p class="card-text">Pomóż nam ocalić śródziemie.</p>
-    <a href="#" class="btn btn-primary">Kup</a>
+    <a href="/pay" class="btn btn-primary">Kup</a>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
@@ -32,7 +32,7 @@
   <div class="card-body">
     <h5 class="card-title">To</h5>
     <p class="card-text">Nigdy nie podążaj za balonikiem...</p>
-    <a href="#" class="btn btn-primary">Kup</a>
+    <a href="/pay" class="btn btn-primary">Kup</a>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
@@ -40,7 +40,7 @@
   <div class="card-body">
     <h5 class="card-title">Harry Potter</h5>
     <p class="card-text">Ten którego imienia nie wolno wymawiać.</p>
-    <a href="#" class="btn btn-primary">Kup</a>
+    <a href="/pay" class="btn btn-primary">Kup</a>
   </div>
 </div>
 </div>
@@ -103,7 +103,8 @@ justify-content:space-evenly;
 margin-top:5%;
 align-items:center;
 display:flex;
-margin-left:23%;
+margin-left:30%;
+margin-right: 30%;
 }
 #dzieki{
 width:300px;
