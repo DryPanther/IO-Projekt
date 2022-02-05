@@ -83,7 +83,7 @@ export default {
 </script>
 <style scoped>
 #kontent{
-  background:#F2E3D6;
+  background:#CDF7F2;
   top:0px;
   width:100%;
   height:100%;
@@ -101,11 +101,13 @@ display: flex;
 align-items: center;    
 }
 img{
-border-radius:40px;
+border-radius:10px;
 }
 .card{
-background:#59320A;
+background:#3E7570;
 color:white;
+border-top-left-radius: 25%;
+border-top-right-radius: 25%;
 }
 #cards{
 margin-top:5%;
@@ -124,7 +126,7 @@ width:300px;
 font-size:20px;
 }
 #footer{
-background:#59320A;
+background:#3E7570;
 margin-top:10%;
 text-align:left;
 padding:6px;

@@ -56,7 +56,7 @@ async handleSubmit(){
     margin-right:35%;
 }
 
-#strona{background:#F2E3D6;height:100%;position:absolute;width:100%;}
+#strona{background:#CDF7F2;height:100%;position:absolute;width:100%;}
 h1{
   margin-top:7%;
 }

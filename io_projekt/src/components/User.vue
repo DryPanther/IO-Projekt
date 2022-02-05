@@ -66,10 +66,10 @@ margin-top:5%;
 #nawigacja{
     z-index: 9999;
     margin-top:-60px;
-    background:#59320A;
+    background:#3E7570;
     position:fixed;
     width:100%;
     
 }
-#strona{background:#F2E3D6;height:100%;position:absolute;width:100%;margin-top:-6px;}
+#strona{background:#CDF7F2;height:100%;position:absolute;width:100%;margin-top:-6px;}
 </style>

@@ -49,7 +49,7 @@ export default {
 #nawigacja{
     z-index: 9999;
     margin-top:-60px;
-    background:#59320A;
+    background:#3E7570;
     position:fixed;
     width:100%;
     height:60px;

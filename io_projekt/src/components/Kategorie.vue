@@ -57,7 +57,7 @@ export default {
     font-size:40px;  
 }
 #footer{
-  background:#59320A;
+  background:#3E7570;
   margin-top:3.5%;
   text-align:left;
   padding:6px;
@@ -65,7 +65,7 @@ export default {
   color:white;
 }
 #strona{
-background:#F2E3D6;
+background:#CDF7F2;
 height:100%;
 position:fixed;
 width:100%;

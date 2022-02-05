@@ -48,7 +48,7 @@ export default {
 <style scoped>
 
 
-#mainpage{background:#F2E3D6;height:100%;position:absolute;width:100%;margin-top:-6px;}
+#mainpage{background:#CDF7F2;height:100%;position:absolute;width:100%;margin-top:-6px;}
 
 #main{
    margin-top: 5%;

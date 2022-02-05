@@ -43,7 +43,7 @@ export default {
     width:100%;
 }
 #strona{
-  background:#F2E3D6;
+  background:#CDF7F2;
   height:100%;
   position:absolute;
   width:100%;
