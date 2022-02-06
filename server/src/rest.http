@@ -1,0 +1,38 @@
+GET http://localhost:3000
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDExMjgyNjksImV4cCI6MTY0MTEzMTg2OSwiYXVkIjoiNjFiYTUxOGE2YTlhZTQzYmEyMWZjN2FiIiwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.M4djop50nr38ztiUgr5DebvEDMjjJRlZWU_827NqXE4
+
+###Login Route
+POST http://localhost:3000/auth/login
+Content-Type: application/json
+
+{
+    "email":"miscadis@gmail.com",
+    "password":"21372137"
+}
+
+###Register Route
+POST http://localhost:3000/auth/register
+Content-Type: application/json
+
+{
+    "email":"miscadis@gmail.com",
+    "password":"21372137"
+}
+
+
+###Refresh token Route
+POST http://localhost:3000/auth/refresh-token
+Content-Type: application/json
+
+{
+    "refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDExMzAxMDUsImV4cCI6MTY3MjY4NzcwNSwiYXVkIjoiNjFiYTUxOGE2YTlhZTQzYmEyMWZjN2FiIiwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.E5EAvxA5IOWtd4n6PnIvCV0N4QIruePHjSwmgkbVM0c"
+
+}
+
+###Logout Route
+DELETE  http://localhost:3000/auth/logout
+Content-Type: application/json
+
+{
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDExMzk4MjUsImV4cCI6MTY3MjY5NzQyNSwiYXVkIjoiNjFiYTUxOGE2YTlhZTQzYmEyMWZjN2FiIiwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.1sNn7BpTkwhX68GjlwnwUxT1_bKEilJZ5kz_-DFgxbI"
+}
