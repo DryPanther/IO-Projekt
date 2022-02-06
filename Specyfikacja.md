@@ -11,8 +11,6 @@
 3. Wymagania systemowe
     * Wymagania funkcjonalne
     * Wymagania niefunkcjonalne
-
-
 ## 1.Wprowadzenie
 Dokument ten został stworzony na potrzeby projektu z Inżynierii OprogramowaniaSystem. Prezentuje  wynik fazy analizy i przedstawia specyfikacje wymagań.
 ### Cel
@@ -31,8 +29,8 @@ filmów w formie rywalizacji. Na stronie zostanie umieszczony ranking przeczytan
 Platforma umożliwi przeglądanie profilu użytkownika, przeczytane książki oraz umieszczone komentarze. Administratorzy będą mieli również możliwość aktualizowania bazy 
 filmów i książek o nowe pozycje.
 ### Diagramy przypadków użycia
-![diagram](diagram.png)
-![diagram2](Diagram2.jpg)
+![diagram](https://user-images.githubusercontent.com/92635745/152690733-850a63ca-6b69-4b39-8df1-4493cee41f4d.png)
+![Diagram2](https://user-images.githubusercontent.com/92635745/152690738-7988a59f-c445-44ca-a99c-f96cdffcbe15.jpg)
 ### Scenariusz przypadków użycia
 #### Główny scenariusz:
 1. Użytkownik chce wypożyczyć film bądź książkę. 
@@ -56,27 +54,25 @@ filmów i książek o nowe pozycje.
 6. Kod nie działa.
 * Strona wyświetla komunikat z prośbą o ponowne wpisanie kodu. 
 ### Założenia i zależności
-* C#-wieloparadygmatowy język programowania zaprojektowany w latach 1998–2001 przez zespół pod kierunkiem Andersa Hejlsbergadla firmy Microsoft.
-* .NET -wolne i otwarte oprogramowanie pozwalające tworzyć i uruchamiać wysoce wydajne aplikacje na platformach Windows, Linux, macOS. Programy w środowisku 
-.NET mogą być tworzone m.in. przy użyciu języków C#, F#, czy Visual Basic.
-* SQL-strukturalny język zapytańużywany do tworzenia, modyfikowania baz danychoraz do umieszczania i pobierania danych z baz danych. JęzykSQL jest językiem
-deklaratywnym. Decyzję o sposobie przechowywania i pobrania danych pozostawia się systemowi zarządzania bazą danych(DBMS).
-* PHP-interpretowany, skryptowyjęzyk programowania zaprojektowany do generowania stron internetowych i budowania aplikacji webowych w czasie rzeczywistym.
-* HTML-hipertekstowyjęzyk znaczników, wykorzystywany do tworzenia dokumentów hipertekstowych.
-* CSS-język służący do opisu formy prezentacji (wyświetlania) stron internetowych.
+* Vue.js- to front-endowa platforma JavaScript typu model-widok-widok typu open source do tworzenia interfejsów użytkownika i aplikacji jednostronicowych.
+* Node.js-wieloplatformowe środowisko uruchomieniowe o otwartym kodzie do tworzenia aplikacji typu server-side napisanych w języku JavaScript.
+* Redis-otwartoźródłowe oprogramowanie działające jako nierelacyjna baza danych przechowująca dane w strukturze klucz-wartość w pamięci operacyjnej serwera, przeznaczona do działania jako klasyczna baza danych, miejsce przechowywania pamięci podręcznej oraz broker wiadomości.
+* MongoDB-otwarty, nierelacyjny system zarządzania bazą danych napisany w języku C++. Charakteryzuje się brakiem ściśle zdefiniowanej struktury obsługiwanych baz danych. Zamiast tego dane składowane są jako dokumenty w stylu JSON.
 ## 3.Wymagania systemowe
 ### Wymagania funkcjonalne
 ![wymaganie1](https://user-images.githubusercontent.com/77339484/139115423-d323060f-f0c9-400a-8c45-cd9dd5ebe07a.png)
 ![wymaganie2](https://user-images.githubusercontent.com/77339484/139115936-99ebacfa-1cf1-4fba-b8d4-1d07dec928ce.png)
-![wymaganie3](https://user-images.githubusercontent.com/77339484/139115950-5980ff0d-c2c5-4576-bfe6-90625a7a3e24.png)
-![wymaganie4](https://user-images.githubusercontent.com/77339484/139115964-e967a2d1-9446-4f84-a7fb-db123c5f24a3.png)
-![wymaganie5](https://user-images.githubusercontent.com/77339484/139115979-b999480b-de29-4e3b-97a5-eefde29ba71d.png)
-![wymaganie6](https://user-images.githubusercontent.com/77339484/139115989-0eb9bef3-7c64-4ec5-ab8c-e5aeadb253fd.png)
-![wymaganie7](https://user-images.githubusercontent.com/77339484/139116700-97d21cfd-c51a-42a2-b993-03010c8f37ac.png)
-![wymaganie8](https://user-images.githubusercontent.com/77339484/139116728-90406166-727d-46da-a39d-cebf93d35371.png)
-![wymaganie9](https://user-images.githubusercontent.com/77339484/139116743-4b5342db-e4cb-45c9-82d2-1af505f37df8.png)
+
 ### Wymagania niefunkcjonalne
 ![wymaganie10](https://user-images.githubusercontent.com/77339484/139117793-3fd7304c-93c8-4630-a080-c058cc717a86.png)
-![wymaganie 11](https://user-images.githubusercontent.com/77339484/139117812-469a0c93-d9b1-49d9-9091-df8ca8e2cea4.png)
 ![wymaganie12](https://user-images.githubusercontent.com/77339484/139117829-7614d1f6-4cfa-4030-b513-f97c968c732b.png)
-![wymaganie13](https://user-images.githubusercontent.com/77339484/139117836-cc019d10-ba27-452b-9210-8af144d37d26.png)
+
+## 4.Log
+* Manuel Hływa
+Logowanie, Rejestracja, JWT, Utworzenie bazy danych, Backend
+* Michał Cader
+Logowanie, Rejestracja, Frondend
+* Artur Bąk
+Frontend
+* Jakub Błachut
+Frontend
